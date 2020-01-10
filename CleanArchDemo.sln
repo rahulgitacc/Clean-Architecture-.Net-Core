@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infracture.Data",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.Mvc", "CleanArch.UI.Mvc", "{A63A387E-59EA-4A22-BF84-B41A2B2A9626}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Mvc", "CleanArch.UI.Mvc\CleanArch.Mvc\CleanArch.Mvc.csproj", "{956DA199-BBF6-4C1B-8E82-F27DF714167F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,5 +29,22 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA9FA0EA-E64E-4840-B366-DBB34A4348A5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Debug|x64.Build.0 = Debug|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Debug|x86.Build.0 = Debug|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Release|x64.ActiveCfg = Release|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Release|x64.Build.0 = Release|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Release|x86.ActiveCfg = Release|Any CPU
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{956DA199-BBF6-4C1B-8E82-F27DF714167F} = {A63A387E-59EA-4A22-BF84-B41A2B2A9626}
 	EndGlobalSection
 EndGlobal
